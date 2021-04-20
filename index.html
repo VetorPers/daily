@@ -1,14 +1,65 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-
-	<title>cc-vv</title>
+    <link rel="stylesheet" href="./index.css">
+    <title>cc-vv</title>
 </head>
+
 <body>
-	<h1>哈喽，橙橙</h1>
+    <header id="header" class="header bg-white">
+        <div class="navbar-container">
+            <a href="/" title="" class="navbar-logo"> <img src="static/images/vv.jpg" alt=""> </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="markdown-body">
+            <div class="main-content index-page clearfix">
+                <div class="post-lists">
+                    <div class="post-lists-body">
+                        <div class="post-lists-item">
+
+                            <div class="ant-card ant-card-bordered ant-card-hoverable" style="width: 350px;">
+                                <div class="ant-card-cover"><img alt="example"
+                                        src="https://images.pexels.com/photos/2699258/pexels-photo-2699258.jpeg?cs=srgb&dl=pexels-frans-van-heerden-2699258.jpg&fm=jpg">
+                                </div>
+                                <div class="ant-card-body">
+                                    <div class="ant-card-meta">
+                                        <div class="ant-card-meta-detail">
+                                            <div class="ant-card-meta-title">都江堰旅行记</div>
+                                            <div class="ant-card-meta-description">2021/4/30</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
 </body>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(function () {
+        $('.ant-card').click(function () {
+            location.href = 'info.html'
+        })
+    });
+
+</script>
+
 </html>
